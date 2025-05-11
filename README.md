@@ -69,6 +69,6 @@ Feel free to fork, modify, and make it your own. Happy coding and keep pursuing 
 
 ---
 
-**Created with care and creativity by JJ's friendly AI assistant.**  
+**Created with care and creativity by JJ.**  
 🌟🛹🥋📚✨  
 
