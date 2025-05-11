@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JJ's Blog 🌟</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Welcome to JJ's Blog! 🛹🥋📚</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Latest Posts</h2>
+
+            <article>
+                <h3>Skating Adventures 🛹</h3>
+                <img src="https://images.unsplash.com/photo-1524514502453-0a785f823f49?auto=format&fit=crop&w=600&q=80" alt="Woman skating outdoors" />
+                <p>Join me as I explore the world of skating! From cruising city streets to learning new tricks at the skate park, I share my thrills and spills here. Whether you're a beginner or a seasoned skater, come along for the ride! 🛹💨</p>
+                <button class="readMoreBtn" aria-label="Read more about Skating Adventures">Read More ➡️</button>
+                <div class="extraContent" style="display:none;">
+                    <p>One of my favorite places to skate is the downtown plaza where there's great music and community vibes. I also recently tried longboarding and it's an exciting change with a different style and speed. Stay tuned for tips, gear reviews, and safety advice!</p>
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Longboarding skate" />
+                </div>
+            </article>
+
+            <article>
+                <h3>Karate Journey 🥋</h3>
+                <img src="https://images.unsplash.com/photo-1546484959-f2fdbb4f5200?auto=format&fit=crop&w=600&q=80" alt="Karate class training" />
+                <p>My karate journey has shaped my discipline and confidence. I share experiences from training, upcoming tournaments, and how martial arts influence my life in meaningful ways. 🥋🔥</p>
+                <button class="readMoreBtn" aria-label="Read more about Karate Journey">Read More ➡️</button>
+                <div class="extraContent" style="display:none;">
+                    <p>I recently earned my green belt and am training in advanced katas. Karate is not just about self-defense; it's a way of life and personal growth. I love how it challenges both mind and body, with a strong community supporting each other.</p>
+                    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80" alt="Karate training session" />
+                </div>
+            </article>
+
+            <article>
+                <h3>Book Recommendations 📚</h3>
+                <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80" alt="Stack of novels on a table" />
+                <p>I’m an avid reader! Here I share my latest novel discoveries, reviews, and all-time favorites that inspire and entertain. 📚❤️</p>
+                <button class="readMoreBtn" aria-label="Read more about Book Recommendations">Read More ➡️</button>
+                <div class="extraContent" style="display:none;">
+                    <p>This month, I've been hooked on fantasy novels with strong female leads. I also enjoy classic literature and contemporary fiction. Expect reviews, reading challenges, and discussion prompts to share your thoughts with me!</p>
+                    <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=600&q=80" alt="Books stacked on a table with coffee" />
+                </div>
+            </article>
+        </section>
+
+        <section class="gallery">
+            <h2>Gallery 📸</h2>
+            <div class="imageGrid">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=300&q=80" alt="Skateboard with sunset background" />
+                <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=300&q=80" alt="Karate training session" />
+                <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=300&q=80" alt="Books stacked on a table with coffee" />
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <h2>Subscribe to My Newsletter 📰</h2>
+            <form id="newsletterForm">
+                <input type="email" id="newsletterEmail" placeholder="Your email address" required aria-label="Email for newsletter subscription" />
+                <button type="submit">Subscribe 📬</button>
+            </form>
+            <p id="newsletterMessage" aria-live="polite" style="color: green; display: none;"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 JJ's Blog. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+

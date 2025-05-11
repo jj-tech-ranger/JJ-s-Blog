@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact JJ 🌟</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Contact Me 🌟</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Get in Touch!</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required aria-required="true" />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required aria-required="true" />
+
+                <label for="message">Message:</label>
+                <textarea id="message" required aria-required="true"></textarea>
+
+                <button type="submit">Send Message ✉️</button>
+            </form>
+            <p id="formMessage" aria-live="polite" style="color: green; display: none; margin-top: 10px;"></p>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2023 JJ's Blog. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
